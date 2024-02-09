@@ -46,7 +46,7 @@ export default function UserOptions() {
         ) : (
           <MenuItem
             as="a"
-            href="/pages/login.html"
+            href="login"
             icon={logged ? <FaRightFromBracket /> : <FaRightToBracket />}
             alignItems={"center"}
             gap={2}
